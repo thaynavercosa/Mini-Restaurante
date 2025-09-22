@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header, nav, main, footer {
+    padding: 20px;
+    margin: 10px;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+    max-width: 250px; 
+}
+
+h1 {
+    color: #004d66;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #007bff;
+    margin: 0 15px;
+}
+
+ul, ol {
+    list-style-type: square;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #004d66;
+    color: #fff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+.galeria-pratos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.galeria-pratos img {
+    max-width: 45%; 
+    margin: 10px;
+}
